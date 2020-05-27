@@ -140,10 +140,10 @@ window.addEventListener('load', function () {
         arg.Inputs.input1.Values.push(p);
  
         jQuery.ajax({
-            url: "https://novayatemaproshlayaslomalas.azure-api.net/predictfignya/score",
+            url: "https://myodr.azure-api.net/predict/pam",
             beforeSend: function (xhrObj) {
                 xhrObj.setRequestHeader("Content-Type", "application/json;charset=utf-8");
-                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "bf1c49fc3eb84a59a47e92df4b8dc800");
+                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "e1bf6ee6beba43d38229efa754ad9354");
  
             },
             type: "POST",
